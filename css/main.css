@@ -1,0 +1,123 @@
+
+/**
+ ** PAGE LAYOUT
+ **/
+html {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1024px;
+  font-family: "Work Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**
+ ** COLOR ASSIGNMENT
+ **/
+ header, h3{
+   color: #7d97ad;  /*light gray*/
+ }
+
+.header-text, .portfolio-item-link a:link, h4 {
+  color: #2d3c49; /*dark gray*/
+}
+
+
+/**
+ ** HEADER
+ **/
+header {
+  width: 100%;
+  display: table;
+  border-bottom: solid thick;
+  margin-bottom: 30px;
+}
+
+header img {
+  float: left;
+  width: 5em;
+  height: 5em;
+  margin: 20px 15px 15px 15px;
+}
+
+h1, h2 {
+  text-align: right;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 56pt;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+/**
+ ** CONTENT
+ **/
+h3 {
+  font-size: 32pt;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#featured-work-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 325px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+  padding: 0;
+  text-align: center;
+}
+
+.portfolio-item:last-of-type {
+  margin-right: 0;
+}
+
+.portfolio-item-link {
+  font: 13pt "Work Sans", sans-serif;
+  margin: 0;
+}
+
+h4 {
+  font: 32pt "Nunito", sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+/**
+ * RESPONSIVE
+ **/
+ @media screen and (max-width: 700px) {
+   h1 {
+     font-size: 10vw;
+   }
+
+   h2 {
+     font-size: 4vw;
+   }
+
+   h3 {
+     font-size: 8vw;
+   }
+
+   h4 {
+     font-size: 6vw;
+   }
+ }
