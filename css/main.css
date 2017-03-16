@@ -89,14 +89,8 @@ h3 {
 
 .portfolio-item {
   width: 324px;
-  margin-right: 12px;
-  margin-bottom: 40px;
-  padding: 0;
+  margin: 0 auto 40px auto;
   text-align: center;
-}
-
-.portfolio-item:last-of-type {
-  margin-right: 0;
 }
 
 .portfolio-item img {
