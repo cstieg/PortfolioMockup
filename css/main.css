@@ -38,16 +38,19 @@ a {
  **/
 header {
   width: 100%;
-  display: table;
+  display: flex;
   border-bottom: solid thick;
   margin-bottom: 30px;
 }
 
-header img {
-  float: left;
+header .logo {
   width: 5em;
   height: 5em;
   margin: 20px 15px 15px 15px;
+}
+
+header .header-text {
+  margin-left: auto;
 }
 
 h1, h2 {
@@ -81,21 +84,22 @@ h3 {
 }
 
 #featured-work-items {
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
 .portfolio-item {
+  display: flex;
+  flex-direction: column;
   width: 324px;
   margin: 0 auto 40px auto;
   text-align: center;
 }
 
 .portfolio-item img {
-  width: 312px;
-  height: 300px;
+  width: 90%;
+  height: auto;
+  margin: 20px;
 }
 
 .portfolio-item-link {
