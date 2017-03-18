@@ -24,14 +24,12 @@ a {
    color: teal;
  }
 
-.header-text, .portfolio-item-link a:link, h4 {
+.header-text,
+.portfolio-item-link a:link,
+.portfolio-item-link a:visited,
+h4 {
   color: darkgreen;
 }
-
-.portfolio-item-link a:visited {
-  color: darkgreen;
-}
-
 
 /**
  ** HEADER
@@ -53,7 +51,8 @@ header .header-text {
   margin-left: auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: right;
   text-transform: uppercase;
   margin: 10px;
